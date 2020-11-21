@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries</title>
+    <link rel="icon" type="image/png" href="./image/ico.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Reto Countries</h1>
+    </header>
+    <div>
+      <main>
+        <div class="container">
+          <section id="listCountries" class="row"></section>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <h2 class="footer-title">By Brayan Huaman Villanueva</h2>
+      <strong class="footer-subtitle">2020</strong>
+    </footer>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="handleCloseModal()">×</span>
+        <div class="modal-body" id="modal-body">
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
